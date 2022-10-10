@@ -1,4 +1,4 @@
-# THIS PROJECT USES LARAVEL, IF YOU WANT TO READ ABOUT IT VISIT [Laravel](https://laravel.com/)
+### This project uses Laravel, if you want to read about it visit [Laravel](https://laravel.com/)
 
 # Setup
 
@@ -13,17 +13,17 @@
 
 # Technical guidelines
 
-## Relations between Models
+## 1. Relations between Models
 
 -   There should be an endpoints for CRUD operations for Merchants
 -   There should be endpoints for CRUD operations for Stores
 -   There should be endpoints for CRUD operations for Products
--   A merchants can create one/many stories and one/many products
+-   A merchants can create one/many stores and one/many products
 -   A product only belongs to one Merchant
 -   A product belonging to a merchant can only belong to that merchant stores
 -   A product can belong to one/many stores with different prices
 
-## Requirements
+## 2. Requirements
 
 -   Each Model should have it's own controller (see App/Models/Example.php)
 -   All restrictions are handled on the controller side (See App/Http/Controllers/ExampleController.php)
